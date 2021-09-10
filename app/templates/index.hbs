@@ -1,0 +1,7 @@
+{{page-title 'Index'}}
+
+<BsForm @onSubmit={{this.submitForm}} as |form|>
+  <form.element @controlType='text' @property='username' />
+  <form.element @controlType='password' @property='password' />
+  <form.submitButton @defaultText='Login' />
+</BsForm>
